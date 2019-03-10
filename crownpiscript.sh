@@ -27,7 +27,7 @@ download_package() {
         mkdir -p $dir
     fi
     # Change this later to take latest release version.
-    sudo wget "https://gitlab.crown.tech/crown/crown-core/-/jobs/4986/artifacts/download" -O $dir/crown.zip
+    sudo wget "https://github.com/Crowndev/crown-core/releases/download/v0.12.5.3/Crown-0.12.5.3-RaspberryPi.zip" -O $dir/crown.zip
 }
 
 # Install Crown client
