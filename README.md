@@ -9,7 +9,7 @@
 ```sh
 sudo wget "https://raw.githubusercontent.com/defunctec/CrownPi-Update/master/crownpiscript.sh" -O update.sh | bash && sudo chmod +x update.sh && sudo ./update.sh
 ```
-2. Start the Crown client
+2. Once finished updating restart the Crown client by using
 ```sh
 sudo crownd
 ```
