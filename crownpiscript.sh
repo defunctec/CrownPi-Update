@@ -18,7 +18,7 @@ update_repos() {
 # Download Crown client (Update link with new client)
 download_package() {
     # Password change prompt
-    echo Getting 0.12.7.3
+    echo Getting 0.13.0 MN-PoS client
     # Create temporary directory
     dir=`mktemp -d`
     if [ -z "$dir" ]; then
@@ -27,7 +27,7 @@ download_package() {
         mkdir -p $dir
     fi
     # Change this later to take latest release version.
-    sudo wget "https://github.com/Crowndev/crown-core/releases/download/v0.12.5.3/Crown-0.12.5.3-RaspberryPi.zip" -O $dir/crown.zip
+    sudo wget "https://github.com/Crowndev/crown-core/releases/download/v0.13.0/Crown-0.13.0.0-RaspberryPi.zip" -O $dir/crown.zip
 }
 
 # Install Crown client
