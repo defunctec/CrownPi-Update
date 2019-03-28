@@ -1,4 +1,4 @@
-# CrownPi-Update 12.7.3
+# CrownPi - (MNPoS 0.13.0)
 > Local Masternode hosting for the Crown(CRW) community.
 
 ![](http://i63.tinypic.com/vxke4x.png)
